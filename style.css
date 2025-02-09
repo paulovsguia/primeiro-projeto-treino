@@ -9,6 +9,7 @@ body{
     text-shadow: 3px 3px 3px black;
 }
 nav{
+    width: 100%;
     background-color: rgba(72, 12, 128, 0.411);
     overflow: hidden;
     height: 80px;
