@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Delius Swash Caps", serif;
+}
+nav{
+    background-color: rgb(132, 28, 230);
+    overflow: hidden;
+    height: 80px;
+}
+nav h1{
+    width: 180px;
+    float: left;
+    font-family: "Fleur De Leah", serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 6px 0 0 4px ;
+    padding-left: 27px;
+    border-radius: 20px;
+    background-color: rgba(79, 13, 141, 0.3);
+}
+nav h1:hover{
+    background-color:rgba(79, 13, 141, 0.6);
+}
+.nav{
+    padding: 1px;
+    text-align: right;
+    margin: 28px 3px 3px 3px;
+}
+.nav a{
+    color: white;
+    padding: 20px;      
+    background-color: rgba(79, 13, 141, 0.3);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav a:hover{
+    background-color:rgba(79, 13, 141, 0.6);
+    padding: 25px;
+    margin-top: 5px;
+}
