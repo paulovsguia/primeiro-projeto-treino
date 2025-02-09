@@ -2,23 +2,35 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Delius Swash Caps", serif;
+    background-image: url('./image/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 3px 3px 3px black;
 }
 nav{
-    background-color: rgb(132, 28, 230);
+    background-color: rgba(72, 12, 128, 0.411);
     overflow: hidden;
     height: 80px;
+}
+p{
+    background-color: rgba(0, 140, 255, 0.137);
+    border-radius: 10px;
+    word-spacing: 10px;
+    line-height: 45px;
 }
 nav h1{
     width: 180px;
     float: left;
     font-family: "Fleur De Leah", serif;
-    color: white;
     font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
     letter-spacing: 5px;
     margin: 6px 0 0 4px ;
     padding-left: 27px;
     border-radius: 20px;
-    background-color: rgba(79, 13, 141, 0.3);
+    background-color: rgba(60, 6, 110, 0);
 }
 nav h1:hover{
     background-color:rgba(79, 13, 141, 0.6);
@@ -29,11 +41,12 @@ nav h1:hover{
     margin: 28px 3px 3px 3px;
 }
 .nav a{
-    color: white;
     padding: 20px;      
-    background-color: rgba(79, 13, 141, 0.3);
+    background-color: rgba(60, 6, 110, 0.3);
     border-radius: 10px;
+    color: white;
     text-decoration: none;
+    text-shadow: 3px 3px 3px black;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -41,4 +54,70 @@ nav h1:hover{
     background-color:rgba(79, 13, 141, 0.6);
     padding: 25px;
     margin-top: 5px;
+}
+.conteudo{
+    text-align: justify;
+}
+.conteudo h1{
+    font-family: serif;
+    font-size: 70px;
+    margin: 50px 0 30px 80px;
+    text-shadow: 5px 5px 5px rgba(98, 11, 180, 0.3);
+}
+.conteudo h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 30px 0 30px 140px;
+    text-shadow: 5px 5px 5px rgba(98, 11, 180, 0.3);
+}
+.conteudo p{
+    width: 80%;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    text-indent: 40px;
+    font-size: 25px;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    border: solid;
+    border-radius: 40px 0 40px 0;
+}
+.conteudo ul{
+    background-color: rgba(79, 13, 141, 0.6);
+    width: 800px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    border: solid white 3px;
+    border-radius: 20px;
+
+
+}
+.conteudo ul li{
+    padding: 20px;
+    border-bottom:solid white 1px ;
+    font-size: 30px;
+    text-align: justify;
+}
+.conteudo ul li h2{
+    margin: 5px 0 5px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(48, 48, 48, 0.8);
+    border-radius: 20px;
+}
+#ultimo{
+    border-bottom: solid transparent;
+}
+.image2{
+    text-align: center;
+}
+.image2 img{
+    border-radius: 30px;
 }
